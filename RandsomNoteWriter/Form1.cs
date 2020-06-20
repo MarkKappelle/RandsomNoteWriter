@@ -46,7 +46,7 @@ namespace RandsomNoteWriter
             {
                 TextBox.SelectionStart = i;
                 TextBox.SelectionLength = 1;
-                TextBox.SelectionFont = new System.Drawing.Font(font_list[RandomNumber(0, (font_list.Count - 1))], 10);
+                TextBox.SelectionFont = new System.Drawing.Font(font_list[RandomNumber(0, (font_list.Count - 1))], 14);
 
 
             }
